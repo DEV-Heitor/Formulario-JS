@@ -1,0 +1,101 @@
+body{
+    background-color: #181818;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: white;
+    margin-left: 15%;
+    text-align: center;
+}
+
+span{
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
+    font-size: 12px;
+    display: none;
+}
+
+p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button{
+    margin-top: 50px;
+    width: 450px;
+    background-color: #37025E;
+    border: none;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #590099;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: .4s;
+}
+
+button::before{
+    background-color: #37025E;
+    transition: .4s;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1C1C1C;
+    border-radius: 5px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+#inputs3{
+    width: 430px;
+    background-color: #181818;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    outline: none;
+}
+
+#descricao{
+    width: 445px;
+    background-color: #181818;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.box-select{
+    color: white;
+}
+
+.sexo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.experiencias1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-widht: 576){
+    .box-select{
+        flex-direction: column;
+    }
+}
